@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Session Test Automation Suite" verbose="2" >
+
+        <test name="Different testng feature Test">
+        
+               <classes>
+               
+                     <class name="com.LearningTestNG.ExpectedException" />
+                     <class name="com.LearningTestNG.GoogleTestWithTestNG" />
+                     <class name="com.LearningTestNG.InvocationCountTest" />
+                     <class name="com.LearningTestNG.TestNGAnnotations_1" />
+                     <class name="com.LearningTestNG.TestNGAnnotations_2" />
+               </classes>
+        </test>
+</suite>
