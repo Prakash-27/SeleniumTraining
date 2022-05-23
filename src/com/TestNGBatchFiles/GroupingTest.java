@@ -21,4 +21,9 @@ public class GroupingTest {
 		System.out.println("Inside features 3");
 	}
 	
+	@Test(groups= {"sanity"})
+	public void feature4() {
+		System.out.println("Inside features 4");
+	}
+	
 }

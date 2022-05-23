@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Test Suite" verbose="2" >
+
+        <test name="GroupingTest" >
+        
+        <groups>
+        <run>
+        
+        <include name="regression" />
+        <include name="Performance" />
+        <exclude name="sanity" />
+        
+        </run>
+        </groups>
+        
+               <classes>
+               
+                     <class name="com.TestNGBatchFiles.GroupingTest" />
+                     
+               </classes>
+        </test>
+</suite>

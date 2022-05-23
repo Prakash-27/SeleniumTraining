@@ -4,12 +4,17 @@
 
 <suite name="TestNG Session Test Automation Suite" verbose="2" >
 
-        <test name="Different testng feature Test">
+        <test name="Different testng feature Test" >
         
                <classes>
-               
                      <class name="com.LearningTestNG.ExpectedException" />
+                     
                      <class name="com.LearningTestNG.GoogleTestWithTestNG" />
+                     <methods>
+                     <include name="googleTitleTest" />
+                     <include name="googleLogoTest" />
+                     </methods>
+                    
                      <class name="com.LearningTestNG.InvocationCountTest" />
                      <class name="com.LearningTestNG.TestNGAnnotations_1" />
                      <class name="com.LearningTestNG.TestNGAnnotations_2" />

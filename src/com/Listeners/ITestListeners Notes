@@ -1,0 +1,10 @@
+ITestListener:
+==============
+Method                                               Description
+onStart(ITestContext arg0)--------------->Invoked after the test class is instantiated and before any configuration method is called.
+onFinish(ITestContext arg0)-------------->Invoked after all the tests have run and all their configuration methods have been called.
+onTestFailure(ITestResult result)-------->Invoked each time when a test fails
+onTestSkipped(ITestResult result)-------->Invoked each time when a test Skips
+onTestStart(ITestResult result)---------->Invoked each time before a test will be invoked
+onTestSuccess(ITestResult result)-------->Invoked each time when a test succeeds
+onTestFailedButWithinSuccessPercentage(ITestResult result)-------->Invoked each time a method fails but has been annotated with successPercentage and this failure still keeps it within the success percentage requested. 

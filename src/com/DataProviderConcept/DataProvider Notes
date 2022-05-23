@@ -1,0 +1,11 @@
+DataProvider:
+=============
+1.Apart from Parameters,there is another way to achieve parameterization which is by using DataProvider in TestNG.
+2.DataProvider are used for data driven testing which means same test case can be run with different set of data.
+-->It is very powerful feature of TestaNG and effectively used during framework development.
+-->There are few points you should know about dataProvider.
+3.It marks a methods for supplying the data to other methods.
+4.Annotated methods return an array of Object i.e. Object[][].
+5.DataProvider can have a name,and it will be used in other methods by using its name.
+6.DataProvider can be implemented in the same class or different class.
+7.A Data Provider is a method annotated with @DataProvider.

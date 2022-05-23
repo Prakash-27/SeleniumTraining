@@ -5,7 +5,7 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 
-public class LoginTest {
+public class LoginTest_UsingTestNG_Assertion {
 	
 	
 	@Test
